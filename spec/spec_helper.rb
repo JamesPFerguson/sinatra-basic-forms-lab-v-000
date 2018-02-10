@@ -4,7 +4,7 @@ require 'rack/test'
 require 'capybara/rails'
 
 RSpec.configure do |config|
-  config.include Capybara/dsl
+  config.include Capybara::DSL
   config.include Rack::Test::Methods
   config.order = 'default'
 end
